@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  emomeet
 //
-//  Created by 王玉松 on 2024/12/8.
+//  Created by Kris Wu on 2024/12/8.
 //
 
 import SwiftUI
