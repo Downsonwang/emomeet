@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18ADDB72D0540BD00F8B1BD /* emomeetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDB62D0540BD00F8B1BD /* emomeetApp.swift */; };
+		B18ADDB92D0540BD00F8B1BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDB82D0540BD00F8B1BD /* ContentView.swift */; };
+		B18ADDBB2D0540BD00F8B1BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDBA2D0540BD00F8B1BD /* Item.swift */; };
+		B18ADDBD2D0540BF00F8B1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18ADDBC2D0540BF00F8B1BD /* Assets.xcassets */; };
+		B18ADDC02D0540BF00F8B1BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18ADDBF2D0540BF00F8B1BD /* Preview Assets.xcassets */; };
+		B18ADDCA2D0540BF00F8B1BD /* emomeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDC92D0540BF00F8B1BD /* emomeetTests.swift */; };
+		B18ADDD42D0540BF00F8B1BD /* emomeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDD32D0540BF00F8B1BD /* emomeetUITests.swift */; };
+		B18ADDD62D0540BF00F8B1BD /* emomeetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDD52D0540BF00F8B1BD /* emomeetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18ADDC62D0540BF00F8B1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18ADDAB2D0540BD00F8B1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18ADDB22D0540BD00F8B1BD;
+			remoteInfo = emomeet;
+		};
+		B18ADDD02D0540BF00F8B1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18ADDAB2D0540BD00F8B1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18ADDB22D0540BD00F8B1BD;
+			remoteInfo = emomeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18ADDB32D0540BD00F8B1BD /* emomeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emomeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18ADDB62D0540BD00F8B1BD /* emomeetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emomeetApp.swift; sourceTree = "<group>"; };
+		B18ADDB82D0540BD00F8B1BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B18ADDBA2D0540BD00F8B1BD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B18ADDBC2D0540BF00F8B1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18ADDBF2D0540BF00F8B1BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B18ADDC52D0540BF00F8B1BD /* emomeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emomeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18ADDC92D0540BF00F8B1BD /* emomeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emomeetTests.swift; sourceTree = "<group>"; };
+		B18ADDCF2D0540BF00F8B1BD /* emomeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emomeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18ADDD32D0540BF00F8B1BD /* emomeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emomeetUITests.swift; sourceTree = "<group>"; };
+		B18ADDD52D0540BF00F8B1BD /* emomeetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emomeetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18ADDB02D0540BD00F8B1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18ADDC22D0540BF00F8B1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18ADDCC2D0540BF00F8B1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18ADDAA2D0540BD00F8B1BD = {
+			isa = PBXGroup;
+			children = (
+				B18ADDB52D0540BD00F8B1BD /* emomeet */,
+				B18ADDC82D0540BF00F8B1BD /* emomeetTests */,
+				B18ADDD22D0540BF00F8B1BD /* emomeetUITests */,
+				B18ADDB42D0540BD00F8B1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18ADDB42D0540BD00F8B1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18ADDB32D0540BD00F8B1BD /* emomeet.app */,
+				B18ADDC52D0540BF00F8B1BD /* emomeetTests.xctest */,
+				B18ADDCF2D0540BF00F8B1BD /* emomeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18ADDB52D0540BD00F8B1BD /* emomeet */ = {
+			isa = PBXGroup;
+			children = (
+				B18ADDB62D0540BD00F8B1BD /* emomeetApp.swift */,
+				B18ADDB82D0540BD00F8B1BD /* ContentView.swift */,
+				B18ADDBA2D0540BD00F8B1BD /* Item.swift */,
+				B18ADDBC2D0540BF00F8B1BD /* Assets.xcassets */,
+				B18ADDBE2D0540BF00F8B1BD /* Preview Content */,
+			);
+			path = emomeet;
+			sourceTree = "<group>";
+		};
+		B18ADDBE2D0540BF00F8B1BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B18ADDBF2D0540BF00F8B1BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B18ADDC82D0540BF00F8B1BD /* emomeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18ADDC92D0540BF00F8B1BD /* emomeetTests.swift */,
+			);
+			path = emomeetTests;
+			sourceTree = "<group>";
+		};
+		B18ADDD22D0540BF00F8B1BD /* emomeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B18ADDD32D0540BF00F8B1BD /* emomeetUITests.swift */,
+				B18ADDD52D0540BF00F8B1BD /* emomeetUITestsLaunchTests.swift */,
+			);
+			path = emomeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18ADDB22D0540BD00F8B1BD /* emomeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18ADDD92D0540BF00F8B1BD /* Build configuration list for PBXNativeTarget "emomeet" */;
+			buildPhases = (
+				B18ADDAF2D0540BD00F8B1BD /* Sources */,
+				B18ADDB02D0540BD00F8B1BD /* Frameworks */,
+				B18ADDB12D0540BD00F8B1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emomeet;
+			productName = emomeet;
+			productReference = B18ADDB32D0540BD00F8B1BD /* emomeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18ADDC42D0540BF00F8B1BD /* emomeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18ADDDC2D0540BF00F8B1BD /* Build configuration list for PBXNativeTarget "emomeetTests" */;
+			buildPhases = (
+				B18ADDC12D0540BF00F8B1BD /* Sources */,
+				B18ADDC22D0540BF00F8B1BD /* Frameworks */,
+				B18ADDC32D0540BF00F8B1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18ADDC72D0540BF00F8B1BD /* PBXTargetDependency */,
+			);
+			name = emomeetTests;
+			productName = emomeetTests;
+			productReference = B18ADDC52D0540BF00F8B1BD /* emomeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B18ADDCE2D0540BF00F8B1BD /* emomeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18ADDDF2D0540BF00F8B1BD /* Build configuration list for PBXNativeTarget "emomeetUITests" */;
+			buildPhases = (
+				B18ADDCB2D0540BF00F8B1BD /* Sources */,
+				B18ADDCC2D0540BF00F8B1BD /* Frameworks */,
+				B18ADDCD2D0540BF00F8B1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18ADDD12D0540BF00F8B1BD /* PBXTargetDependency */,
+			);
+			name = emomeetUITests;
+			productName = emomeetUITests;
+			productReference = B18ADDCF2D0540BF00F8B1BD /* emomeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18ADDAB2D0540BD00F8B1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B18ADDB22D0540BD00F8B1BD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B18ADDC42D0540BF00F8B1BD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B18ADDB22D0540BD00F8B1BD;
+					};
+					B18ADDCE2D0540BF00F8B1BD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B18ADDB22D0540BD00F8B1BD;
+					};
+				};
+			};
+			buildConfigurationList = B18ADDAE2D0540BD00F8B1BD /* Build configuration list for PBXProject "emomeet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18ADDAA2D0540BD00F8B1BD;
+			productRefGroup = B18ADDB42D0540BD00F8B1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18ADDB22D0540BD00F8B1BD /* emomeet */,
+				B18ADDC42D0540BF00F8B1BD /* emomeetTests */,
+				B18ADDCE2D0540BF00F8B1BD /* emomeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18ADDB12D0540BD00F8B1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18ADDC02D0540BF00F8B1BD /* Preview Assets.xcassets in Resources */,
+				B18ADDBD2D0540BF00F8B1BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18ADDC32D0540BF00F8B1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18ADDCD2D0540BF00F8B1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18ADDAF2D0540BD00F8B1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18ADDB92D0540BD00F8B1BD /* ContentView.swift in Sources */,
+				B18ADDBB2D0540BD00F8B1BD /* Item.swift in Sources */,
+				B18ADDB72D0540BD00F8B1BD /* emomeetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18ADDC12D0540BF00F8B1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18ADDCA2D0540BF00F8B1BD /* emomeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18ADDCB2D0540BF00F8B1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18ADDD42D0540BF00F8B1BD /* emomeetUITests.swift in Sources */,
+				B18ADDD62D0540BF00F8B1BD /* emomeetUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18ADDC72D0540BF00F8B1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18ADDB22D0540BD00F8B1BD /* emomeet */;
+			targetProxy = B18ADDC62D0540BF00F8B1BD /* PBXContainerItemProxy */;
+		};
+		B18ADDD12D0540BF00F8B1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18ADDB22D0540BD00F8B1BD /* emomeet */;
+			targetProxy = B18ADDD02D0540BF00F8B1BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B18ADDD72D0540BF00F8B1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B18ADDD82D0540BF00F8B1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18ADDDA2D0540BF00F8B1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"emomeet/Preview Content\"";
+				DEVELOPMENT_TEAM = JVR2N99MA5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = downson.emomeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B18ADDDB2D0540BF00F8B1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"emomeet/Preview Content\"";
+				DEVELOPMENT_TEAM = JVR2N99MA5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = downson.emomeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B18ADDDD2D0540BF00F8B1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVR2N99MA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = downson.emomeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emomeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/emomeet";
+			};
+			name = Debug;
+		};
+		B18ADDDE2D0540BF00F8B1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVR2N99MA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = downson.emomeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emomeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/emomeet";
+			};
+			name = Release;
+		};
+		B18ADDE02D0540BF00F8B1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVR2N99MA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = downson.emomeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emomeet;
+			};
+			name = Debug;
+		};
+		B18ADDE12D0540BF00F8B1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVR2N99MA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = downson.emomeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emomeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18ADDAE2D0540BD00F8B1BD /* Build configuration list for PBXProject "emomeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18ADDD72D0540BF00F8B1BD /* Debug */,
+				B18ADDD82D0540BF00F8B1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18ADDD92D0540BF00F8B1BD /* Build configuration list for PBXNativeTarget "emomeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18ADDDA2D0540BF00F8B1BD /* Debug */,
+				B18ADDDB2D0540BF00F8B1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18ADDDC2D0540BF00F8B1BD /* Build configuration list for PBXNativeTarget "emomeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18ADDDD2D0540BF00F8B1BD /* Debug */,
+				B18ADDDE2D0540BF00F8B1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18ADDDF2D0540BF00F8B1BD /* Build configuration list for PBXNativeTarget "emomeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18ADDE02D0540BF00F8B1BD /* Debug */,
+				B18ADDE12D0540BF00F8B1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18ADDAB2D0540BD00F8B1BD /* Project object */;
+}
