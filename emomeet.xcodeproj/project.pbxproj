@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13956E82D77D089004F6646 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956E72D77D088004F6646 /* ProfileView.swift */; };
+		B13956EA2D77D091004F6646 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956E92D77D091004F6646 /* CommunityView.swift */; };
+		B13956EC2D77D0BC004F6646 /* UserInfoSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956EB2D77D0BC004F6646 /* UserInfoSetupView.swift */; };
+		B13956EE2D77D0CA004F6646 /* InterestsSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956ED2D77D0CA004F6646 /* InterestsSelectView.swift */; };
+		B13956F02D77D0DB004F6646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956EF2D77D0DB004F6646 /* ContentView.swift */; };
+		B13956F22D77D111004F6646 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956F12D77D111004F6646 /* MessagesView.swift */; };
+		B13956F42D77D11D004F6646 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956F32D77D11D004F6646 /* MainTabView.swift */; };
+		B13956F62D77D151004F6646 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956F52D77D151004F6646 /* NetworkService.swift */; };
+		B13956F82D77D165004F6646 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956F72D77D165004F6646 /* NewsView.swift */; };
+		B13956FA2D77D170004F6646 /* UserProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956F92D77D170004F6646 /* UserProfileData.swift */; };
+		B13956FC2D77D195004F6646 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956FB2D77D195004F6646 /* UserDataManager.swift */; };
+		B13956FE2D77D19D004F6646 /* LoginHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956FD2D77D19D004F6646 /* LoginHelpView.swift */; };
+		B13957002D77D1A4004F6646 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13956FF2D77D1A4004F6646 /* Item.swift */; };
+		B13957062D77D267004F6646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13957052D77D267004F6646 /* Assets.xcassets */; };
+		B13957092D77D72E004F6646 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13957082D77D72E004F6646 /* ExploreView.swift */; };
 		B18ADDB72D0540BD00F8B1BD /* emomeetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDB62D0540BD00F8B1BD /* emomeetApp.swift */; };
-		B18ADDB92D0540BD00F8B1BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDB82D0540BD00F8B1BD /* ContentView.swift */; };
-		B18ADDBB2D0540BD00F8B1BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDBA2D0540BD00F8B1BD /* Item.swift */; };
-		B18ADDBD2D0540BF00F8B1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18ADDBC2D0540BF00F8B1BD /* Assets.xcassets */; };
 		B18ADDC02D0540BF00F8B1BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18ADDBF2D0540BF00F8B1BD /* Preview Assets.xcassets */; };
 		B18ADDCA2D0540BF00F8B1BD /* emomeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDC92D0540BF00F8B1BD /* emomeetTests.swift */; };
 		B18ADDD42D0540BF00F8B1BD /* emomeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18ADDD32D0540BF00F8B1BD /* emomeetUITests.swift */; };
@@ -35,11 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B13956E72D77D088004F6646 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = ../../../javaproj/emomeet/ProfileView.swift; sourceTree = "<group>"; };
+		B13956E92D77D091004F6646 /* CommunityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommunityView.swift; path = ../../../javaproj/emomeet/CommunityView.swift; sourceTree = "<group>"; };
+		B13956EB2D77D0BC004F6646 /* UserInfoSetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInfoSetupView.swift; path = ../../../javaproj/emomeet/UserInfoSetupView.swift; sourceTree = "<group>"; };
+		B13956ED2D77D0CA004F6646 /* InterestsSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterestsSelectView.swift; path = ../../../javaproj/emomeet/InterestsSelectView.swift; sourceTree = "<group>"; };
+		B13956EF2D77D0DB004F6646 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../javaproj/emomeet/ContentView.swift; sourceTree = "<group>"; };
+		B13956F12D77D111004F6646 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesView.swift; path = ../../../javaproj/emomeet/MessagesView.swift; sourceTree = "<group>"; };
+		B13956F32D77D11D004F6646 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = ../../../javaproj/emomeet/MainTabView.swift; sourceTree = "<group>"; };
+		B13956F52D77D151004F6646 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = ../../../javaproj/emomeet/NetworkService.swift; sourceTree = "<group>"; };
+		B13956F72D77D165004F6646 /* NewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsView.swift; path = ../../../javaproj/emomeet/NewsView.swift; sourceTree = "<group>"; };
+		B13956F92D77D170004F6646 /* UserProfileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileData.swift; path = ../../../javaproj/emomeet/UserProfileData.swift; sourceTree = "<group>"; };
+		B13956FB2D77D195004F6646 /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDataManager.swift; path = ../../../javaproj/emomeet/UserDataManager.swift; sourceTree = "<group>"; };
+		B13956FD2D77D19D004F6646 /* LoginHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginHelpView.swift; path = ../../../javaproj/emomeet/LoginHelpView.swift; sourceTree = "<group>"; };
+		B13956FF2D77D1A4004F6646 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../../../javaproj/emomeet/Item.swift; sourceTree = "<group>"; };
+		B13957052D77D267004F6646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13957082D77D72E004F6646 /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		B18ADDB32D0540BD00F8B1BD /* emomeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emomeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18ADDB62D0540BD00F8B1BD /* emomeetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emomeetApp.swift; sourceTree = "<group>"; };
-		B18ADDB82D0540BD00F8B1BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B18ADDBA2D0540BD00F8B1BD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		B18ADDBC2D0540BF00F8B1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B18ADDBF2D0540BF00F8B1BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B18ADDC52D0540BF00F8B1BD /* emomeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emomeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18ADDC92D0540BF00F8B1BD /* emomeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emomeetTests.swift; sourceTree = "<group>"; };
@@ -73,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B13957072D77D72E004F6646 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B13957082D77D72E004F6646 /* ExploreView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
 		B18ADDAA2D0540BD00F8B1BD = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +128,22 @@
 		B18ADDB52D0540BD00F8B1BD /* emomeet */ = {
 			isa = PBXGroup;
 			children = (
+				B13957072D77D72E004F6646 /* Discover */,
+				B13957052D77D267004F6646 /* Assets.xcassets */,
+				B13956FF2D77D1A4004F6646 /* Item.swift */,
+				B13956FD2D77D19D004F6646 /* LoginHelpView.swift */,
+				B13956FB2D77D195004F6646 /* UserDataManager.swift */,
+				B13956F92D77D170004F6646 /* UserProfileData.swift */,
+				B13956F72D77D165004F6646 /* NewsView.swift */,
+				B13956F52D77D151004F6646 /* NetworkService.swift */,
+				B13956F32D77D11D004F6646 /* MainTabView.swift */,
+				B13956F12D77D111004F6646 /* MessagesView.swift */,
+				B13956EF2D77D0DB004F6646 /* ContentView.swift */,
+				B13956ED2D77D0CA004F6646 /* InterestsSelectView.swift */,
+				B13956EB2D77D0BC004F6646 /* UserInfoSetupView.swift */,
+				B13956E92D77D091004F6646 /* CommunityView.swift */,
+				B13956E72D77D088004F6646 /* ProfileView.swift */,
 				B18ADDB62D0540BD00F8B1BD /* emomeetApp.swift */,
-				B18ADDB82D0540BD00F8B1BD /* ContentView.swift */,
-				B18ADDBA2D0540BD00F8B1BD /* Item.swift */,
-				B18ADDBC2D0540BF00F8B1BD /* Assets.xcassets */,
 				B18ADDBE2D0540BF00F8B1BD /* Preview Content */,
 			);
 			path = emomeet;
@@ -234,8 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13957062D77D267004F6646 /* Assets.xcassets in Resources */,
 				B18ADDC02D0540BF00F8B1BD /* Preview Assets.xcassets in Resources */,
-				B18ADDBD2D0540BF00F8B1BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +304,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18ADDB92D0540BD00F8B1BD /* ContentView.swift in Sources */,
-				B18ADDBB2D0540BD00F8B1BD /* Item.swift in Sources */,
+				B13956F62D77D151004F6646 /* NetworkService.swift in Sources */,
+				B13956F82D77D165004F6646 /* NewsView.swift in Sources */,
+				B13956FA2D77D170004F6646 /* UserProfileData.swift in Sources */,
+				B13956F22D77D111004F6646 /* MessagesView.swift in Sources */,
+				B13957092D77D72E004F6646 /* ExploreView.swift in Sources */,
+				B13956EE2D77D0CA004F6646 /* InterestsSelectView.swift in Sources */,
+				B13956F42D77D11D004F6646 /* MainTabView.swift in Sources */,
+				B13956FC2D77D195004F6646 /* UserDataManager.swift in Sources */,
+				B13956EA2D77D091004F6646 /* CommunityView.swift in Sources */,
+				B13956FE2D77D19D004F6646 /* LoginHelpView.swift in Sources */,
+				B13957002D77D1A4004F6646 /* Item.swift in Sources */,
+				B13956EC2D77D0BC004F6646 /* UserInfoSetupView.swift in Sources */,
+				B13956F02D77D0DB004F6646 /* ContentView.swift in Sources */,
+				B13956E82D77D089004F6646 /* ProfileView.swift in Sources */,
 				B18ADDB72D0540BD00F8B1BD /* emomeetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
